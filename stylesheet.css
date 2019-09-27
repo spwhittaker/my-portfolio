@@ -1,2 +1,7 @@
-nav {display: flex;
-justify-content: space-around;}
+nav {
+    display: flex;
+    justify-content: space-around;}
+
+.profile-photo {
+    max-width: 40%;
+    }
