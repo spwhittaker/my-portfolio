@@ -2,8 +2,23 @@ nav {
     display: flex;
     justify-content: space-around;}
 
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding:8px;
+    border: 5px;
+    margin: 5px;
+    background-color: #BBCBDD;
+    border-radius: 5px;
+}
+nav a:hover {background-color: #F4F9FB;}
+
 body {
-    font-family: 'Quicksand', sans-serif;}
+    font-family: 'Quicksand', sans-serif;
+    background-color: #D7E9F2;}
+
+h1 {color: #614344;}
+h2 {color: #88527F;}
 .profile-photo {
     max-width: 40%;}
 main {
@@ -17,5 +32,7 @@ main {
     
 }
 p {text-align: justify;
-margin: 1em;}
-button:hover {transform: scale(1.2);}
+margin: 1em;
+color: #332C23;}
+button:hover {transform: scale(1.05);
+background-color: #88527F;}
