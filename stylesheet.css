@@ -4,6 +4,8 @@ nav {
     flex-wrap: wrap;
     
 }
+a {font-weight: bold;
+color: ##0096A1;}
 
 nav a {
     text-decoration: none;
@@ -13,6 +15,7 @@ nav a {
     margin: 5px;
     background-color: #BBCBDD;
     border-radius: 5px;
+    color: #4A4459;
 }
 nav a:hover {background-color: #F4F9FB;}
 
@@ -38,6 +41,7 @@ h1 {color: #614344;
 h2 {color: #88527F;
     font-family: 'Volkhov', serif;
     font-size: 1.8em;
+    font-weight: lighter;
 }
 h3 {color: #4A4459;
     font-family: 'Volkhov', serif;
@@ -68,3 +72,6 @@ button {background-color: #F4F9FB;
 button:hover {transform: scale(1.01);
 background-color:#88527F;
 color:#F4F9FB;}
+
+ul {list-style-position: outside;
+list-style-type: circle;}
