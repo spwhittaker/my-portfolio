@@ -2,11 +2,18 @@ nav {
     display: flex;
     justify-content: space-around;}
 
-    body {font-family: 'Quicksand', sans-serif;}
+body {
+    font-family: 'Quicksand', sans-serif;}
 .profile-photo {
-    max-width: 40%;
-    }
-    main {display: flex;
+    max-width: 40%;}
+main {
+    display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;}
+    justify-content: center;
+    align-items: center;
+    max-width: 10in;
+    align-content: center;
+    margin:auto;
+    
+}
+p {text-align: justify;}
