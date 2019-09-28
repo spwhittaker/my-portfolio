@@ -1,6 +1,9 @@
 nav {
     display: flex;
-    justify-content: space-around;}
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
 
 nav a {
     text-decoration: none;
@@ -13,14 +16,37 @@ nav a {
 }
 nav a:hover {background-color: #F4F9FB;}
 
+.top-bar {display: block;
+    position:sticky;
+    top:0;
+    width:105%;
+    z-index:100;
+
+left: 0;
+margin: -50px;
+background-color: #BBCBDD;}
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #D7E9F2;}
 
-h1 {color: #614344;}
-h2 {color: #88527F;}
+
+h1 {color: #614344; 
+    font-family: 'Volkhov', serif;
+    font-size: 3em;
+    margin-top: 150px;
+}
+h2 {color: #88527F;
+    font-family: 'Volkhov', serif;
+    font-size: 1.8em;
+}
+h3 {color: #4A4459;
+    font-family: 'Volkhov', serif;
+    font-size: 1.4em;
+}
 .profile-photo {
-    max-width: 40%;}
+    max-width: 60%;
+    min-width: 4in;
+margin: auto;}
 main {
     display: flex;
     flex-direction: column;
@@ -34,5 +60,11 @@ main {
 p {text-align: justify;
 margin: 1em;
 color: #332C23;}
-button:hover {transform: scale(1.05);
-background-color: #88527F;}
+
+button {background-color: #F4F9FB;
+    color: #332C23;
+    border: 2px solid #614344;}
+
+button:hover {transform: scale(1.01);
+background-color:#88527F;
+color:#F4F9FB;}
