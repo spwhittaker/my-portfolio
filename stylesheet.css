@@ -47,6 +47,7 @@ h2 {color: #88527F;
 h3 {color: #4A4459;
     font-family: 'Volkhov', serif;
     font-size: 1.4em;
+    margin: 1em;
 }
 .profile-photo {
     max-width: 60%;
@@ -64,7 +65,8 @@ main {
 }
 p {text-align: justify;
 margin: 1em;
-color: #332C23;}
+color: #332C23;
+line-height: 1.1em;}
 
 /*p::first-letter {
   font-size: 200%;
@@ -74,7 +76,9 @@ color: #332C23;}
 
 button {background-color: #F4F9FB;
     color: #332C23;
-    border: 2px solid #614344;}
+    border: 3px solid #F4F9FB;
+    border-radius: 3px;
+font-size: 1.3em;}
 
 button:hover {transform: scale(1.01);
 background-color:#88527F;
@@ -85,9 +89,32 @@ list-style-type: circle;}
 #nameTitle {display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
-margin-top: 100px;}
+margin-top: 2em;}
 
 #nameTitle h1 {display: inline-block;
 margin: auto;
 padding: 10px;
 text-align: center;}
+
+#coolOrigami {display: flex;
+flex-wrap: wrap;
+align-self: flex-start;
+flex-basis: content;
+justify-content: center;}
+
+div.photoBox img {min-width: 20%;
+max-width: 6cm;}
+caption {display: inline;}
+div.photoBox {display: flex;
+flex-direction: column;
+margin: 5px;
+justify-content:center;
+align-items: center;
+background-color: whitesmoke;
+border: 5px whitesmoke solid;
+border-radius: 5px;
+padding: 5px;
+flex-basis: content;
+
+}
+
