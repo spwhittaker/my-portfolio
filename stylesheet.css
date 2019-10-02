@@ -22,11 +22,11 @@ nav a:hover {background-color: #F4F9FB;}
 .top-bar {display: block;
     position:sticky;
     top:0;
-    width:150%;
+    left:0
+    width:100%;
     z-index:100;
 
-left: 0;
-margin: -50px;
+margin: auto;
 background-color: #BBCBDD;}
 body {
     font-family: 'Quicksand', sans-serif;
