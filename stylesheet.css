@@ -66,10 +66,11 @@ margin: 1em;
 color: #332C23;}
 
 p::first-letter {
-  font-size: 200%;
+  initial-letter: 2;
   color: #4B8178;
  font-family: 'Volkhov', serif;
 }
+
 
 button {background-color: #F4F9FB;
     color: #332C23;
