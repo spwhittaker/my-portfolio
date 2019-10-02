@@ -82,3 +82,7 @@ color:#F4F9FB;}
 
 ul {list-style-position: outside;
 list-style-type: circle;}
+
+#nameTitle {display: flex;
+            justify-content: space-between;
+    align-text: center;}
