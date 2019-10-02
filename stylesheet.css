@@ -82,7 +82,8 @@ ul {list-style-position: outside;
 list-style-type: circle;}
 
 #nameTitle {display: flex;
-            justify-content: space-between;
+    flex-wrap: wrap;        
+    justify-content: space-between;
     align-text: center;
 margin-top: 150px;}
 
