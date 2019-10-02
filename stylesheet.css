@@ -66,7 +66,7 @@ margin: 1em;
 color: #332C23;}
 
 p::first-letter {
-  initial-letter: 2;
+  initial-letter: 2 | [2 2];
   color: #4B8178;
  font-family: 'Volkhov', serif;
 }
