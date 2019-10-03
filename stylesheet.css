@@ -97,15 +97,18 @@ margin-top: 100px;
 padding: 10px;
 text-align: center;}
 
-#coolOrigami {display: flex;
+#coolOrigami {display: inline-flex;
 flex-wrap: wrap;
 align-self: flex-start;
 flex-basis: content;
-justify-content: center;}
+justify-content: center;
+align-items: flex-start;}
 
 div.photoBox img {min-width: 20%;
 max-width: 6cm;}
-caption {display: inline;}
+caption {display: inline;
+padding: 3px;
+margin: 5px;}
 div.photoBox {display: flex;
 flex-direction: column;
 margin: 5px;
