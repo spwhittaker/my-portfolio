@@ -1,5 +1,5 @@
-const submitButton = document.getElementById("submitButton");
+const submitButtonClick = document.getElementById("submitButton");
 console.log('whatevs');
 
 
-submitButton.addEventListener('click', alert("Your message has been submitted. Really. I mean it."),false);
+submitButtonClick.addEventListener('click', function(){alert("Your message has been submitted. Really. I mean it.");},false);
