@@ -67,7 +67,7 @@ main {
 p {text-align: justify;
 margin: 1em;
 color: #332C23;
-line-height: 1.1em;}
+line-height: 1.5em;}
 
 /*p::first-letter {
   font-size: 200%;
@@ -132,11 +132,30 @@ flex-basis: content;
 
 }
 .formDiv {display:flex;}
-.formDiv label, input {
+.formDiv * {
     flex-basis: 50%;
     justify-content: space-between;
-    padding: 5px;
-    margin: 5px;}
+    padding: auto;
+    margin: 15px auto auto auto;}
 
+.formDiv input {height: 1.5em;}
+#messageText {max-height: 4em;}
 
-/*.formDiv > div {flex-basis: 50%;}*/
+form button {align-items: center;
+margin: 15px auto;
+padding:auto;}
+
+input:focus, 
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #332C23;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text 
+  height: 5em;*/
+}
+

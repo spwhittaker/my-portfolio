@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!--<script src="js/get-in-touch.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet">
 
@@ -23,10 +24,12 @@
             <div  class="topHeading"><h1>Get in Touch</h1></div>
             <p>Feel free to get in touch if you've got anything you'd like to discuss. You can email me at <a href="mailto:stephenwhittaker23@gmail.com">stephenwhittaker23@gmail.com</a> or fill out the form below:</a></p>
             <form id="contact-form">
-                <div class="formDiv"><label for="name">Please enter your name</label><input name="name" type="text" required></div>
-                <div class="formDiv"><label for="email">Your email address</label><input name="email" type="email"></div>
-                <div class="formDiv"><label for="message">Your message</label><input type="text" name="message" required></div>
-                
+                <div class="formDiv"><label for="name">Please enter your name</label><input name="name" type="text" id="name" required></div>
+                <div class="formDiv"><label for="email">Your email address (optional)</label><input name="email" type="email" id="email"></div>
+                <div class="formDiv"><label for="phone">Phone number (optional)</label><input name="phone" type="tel" id="phone"></div>
+                <div class="formDiv"><label for="message">Your message</label><textarea id="messageText" type="text" name="message" required placeholder="Your message here"></textarea></div>
+                <button type="submit" id="submitButton">Send your message</button>
+                      
 
 
 
@@ -36,4 +39,5 @@
 
         </main>
 </body>
+<script src="js/get-in-touch.js" type="text/JavaScript">></script>
 </html>
