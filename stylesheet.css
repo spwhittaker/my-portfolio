@@ -53,7 +53,7 @@ h3 {color: #4A4459;
     max-width: 60%;
     min-width: 2in;
 margin: auto;
-border-radius: 40px;}
+border-radius: 20px;}
 main {
     display: flex;
     flex-direction: column;
@@ -62,6 +62,7 @@ main {
     max-width: 10in;
     align-content: center;
     margin:auto;
+    height: 100% - 50px;
     
 }
 p {text-align: justify;
@@ -128,6 +129,7 @@ flex-basis: content;
     max-width: 10in;
     align-content: center;
     margin:auto;
+    height: 90vh;
 
 
 }
@@ -142,7 +144,7 @@ flex-basis: content;
 #messageText {max-height: 4em;}
 
 form button {align-items: center;
-margin: 15px auto;
+margin: 10px auto;
 padding:auto;}
 
 input:focus, 
@@ -158,4 +160,13 @@ textarea {
   /* Provide space to type some text 
   height: 5em;*/
 }
+footer{display: flex;
+justify-content: space-around;flex-wrap: wrap;
+}
 
+
+footer * {font-size: 60%;
+    flex: 1 1 20%;}
+    footer p a {text-decoration: none;
+    color: #332C23;
+    font-size: 100%;}
