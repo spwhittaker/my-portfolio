@@ -216,8 +216,9 @@ textarea {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    align-self: flex-end;
 }
 
 
@@ -234,3 +235,8 @@ footer p a {
 
 .buttonContainer {display: flex;
 justify-content: space-between;}
+
+/* .middleContent {height: 90vh;} */
+
+#aboutMeBody {height:100vh;}
+#indexMain {height: 95vh;}
