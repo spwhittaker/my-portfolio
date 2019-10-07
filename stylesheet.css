@@ -142,17 +142,24 @@ ul {
 }
 
 div.photoBox img {
-    min-width: 20%;
-    max-width: 6cm;
+    /* min-width: 20%; */
+    max-width: 80%;
+    padding: 10px;
+    max-height: 80%;
+    
+   
 }
 
 caption {
-    display: inline;
+    display: inline-flex;
     padding: 3px;
-    margin: 5px;
+    margin: 10px;
+    text-align:   center;
+    align-self: center;
+    justify-self: flex-start;
 }
 
-div.photoBox {
+/* div.photoBox {
     display: flex;
     flex-direction: column;
     margin: 5px;
@@ -162,6 +169,21 @@ div.photoBox {
     border: 5px whitesmoke solid;
     border-radius: 5px;
     padding: 5px;
+    flex-basis: content;
+} */
+
+.photoBox {
+    width: 250px;                 /* Set width of cards */
+    border: 1px solid rgb(197, 197, 197);    /* Set up Border */
+    border-radius: 4px;           /* Slightly Curve edges */
+    overflow: hidden;             /*Fixes the corners */
+    display: flex;                /* Children use Flexbox */
+    flex-direction: column;       /* Rotate Axis */
+    height: 250px;
+    background: rgb(229, 234, 236);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
     flex-basis: content;
 }
 

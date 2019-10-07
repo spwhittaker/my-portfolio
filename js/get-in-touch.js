@@ -10,23 +10,24 @@ let formDataContent = [];*/
 let formDataContent = [];
 let submittedData = [];
 
-
 const formData = function () {
     let formName = document.getElementById("name").value;
     let formEmail = document.getElementById("email").value;
     let formTel = document.getElementById("phone").value;
     let formMessage = document.getElementById("messageText").value;
 
-    if (formName != null) {
+
+    if (formName != "") {
         formDataContent.push("\n\tName: " + formName)
+        console.log(formName);
     };
-    if (formEmail != null) {
+    if (formEmail != "") {
         formDataContent.push("\n\tEmail: " + formEmail)
     };
-    if (formTel != null) {
+    if (formTel != "") {
         formDataContent.push("\n\tPhone Number: " + formTel)
     };
-    if (formMessage != null) {
+    if (formMessage != "") {
         formDataContent.push("\n\tYour message: " + formMessage)
     };
     alert("Your message has been submitted. Here's what you've submitted: \n" + formDataContent + "\nThis message is actually going somewhere. I promise.");
