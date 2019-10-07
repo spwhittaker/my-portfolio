@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.46);
+    /* box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.46); */
 
 }
 
@@ -76,12 +76,11 @@ h3 {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     max-width: 10in;
     align-content: center;
     margin: auto;
-    height: 100% - 50px;
+    
 
 }
 
@@ -193,7 +192,7 @@ caption {
     max-width: 10in;
     align-content: center;
     margin: auto;
-    height: 90vh;
+    /* height: 90vh; */
 
 
 }
@@ -237,11 +236,15 @@ textarea {
   height: 5em;*/
 }
 
+.mainAndFooter {height: 100vh;
+    display: flex;
+    flex-direction: column;}
+
 footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 
@@ -263,3 +266,18 @@ justify-content: space-between;}
 
 #aboutMeBody {height:100vh;}
 #indexMain {height: 95vh;}
+
+
+.cardBox {display: flex;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.card { display: flex;
+flex-direction: column;
+background-color: #ffffffd7;
+margin:50px;
+padding: 30px;
+border-radius: 5px;}
+
+.screenshot {max-width: 300px;
+max-height: 400px;}

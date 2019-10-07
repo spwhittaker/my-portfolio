@@ -19,7 +19,7 @@ const formData = function () {
 
     if (formName != "") {
         formDataContent.push("\n\tName: " + formName)
-        console.log(formName);
+        
     };
     if (formEmail != "") {
         formDataContent.push("\n\tEmail: " + formEmail)
