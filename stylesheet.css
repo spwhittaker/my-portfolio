@@ -41,6 +41,7 @@ nav a:hover {
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #D7E9F2;
+    min-height: 100vh;
 }
 
 
@@ -80,6 +81,7 @@ main {
     max-width: 10in;
     align-content: center;
     margin: auto;
+    min-height: 70vh;
     
 
 }
@@ -236,7 +238,7 @@ textarea {
   height: 5em;*/
 }
 
-.mainAndFooter {height: 100vh;
+.mainAndFooter {min-height: 90vh;
     display: flex;
     flex-direction: column;}
 
@@ -244,6 +246,8 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+   justify-self: flex-end;
+
     /* align-self: flex-end; */
 }
 
@@ -264,13 +268,18 @@ justify-content: space-between;}
 
 /* .middleContent {height: 90vh;} */
 
-#aboutMeBody {height:100vh;}
-#indexMain {height: 95vh;}
+#aboutMeBody {min-height:100vh;
+display: flex;
+flex-direction: column;}
+#indexMain {min-height: 95vh;}
 
 
 .cardBox {display: flex;
 flex-wrap: wrap;
 justify-content: space-around;}
+
+#cardBoxBox {display:block;
+min-height: 20vh;}
 
 .card { display: flex;
 flex-direction: column;
