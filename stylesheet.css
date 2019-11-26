@@ -30,11 +30,11 @@ nav a:hover {
     display: block;
     position: sticky;
     top: 0;
-    width: 105%;
+    width: 100%;
     z-index: 100;
 
     left: 0;
-    margin: -50px;
+    margin: 0;
     background-color: #BBCBDD;
 }
 
@@ -42,6 +42,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: #D7E9F2;
     min-height: 100vh;
+    margin: 0;
 }
 
 
